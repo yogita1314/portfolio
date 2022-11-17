@@ -55,6 +55,9 @@
   border: #EC7497 4px solid;
   border-radius: 5%;
 }
+#screenshot:hover{
+   opacity:50%;
+}
 @media screen and (max-width: 900px) {
   li img{
     width: 25%;
