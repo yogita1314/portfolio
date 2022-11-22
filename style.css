@@ -44,6 +44,7 @@
 }
 .pic-1{
   border: #EC7497 5px solid;
+  /* border-radius: 1z0%; */
 }
 @media screen and (max-width: 900px) {
    .pic-1{
