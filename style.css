@@ -78,6 +78,54 @@ body {
 }
 /* navbar finish */
 /* main */
+.front{
+  font-size: 4rem;
+  font-weight: bold;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #EC7497;
+  }
+}
+/* .box{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#hero {
+  background: var(--dark-color);
+  padding: 4rem 0;
+  border-bottom: 4px solid var(--lighting-color);
+  max-height: 100vh;
+}
+#hero .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero_content {
+  display: grid;
+  place-items: center;
+} */
+
   #img{
     border: #EC7497 3px solid;
   }
@@ -103,20 +151,6 @@ body {
     transition: 0.3s ease-in-out;
     opacity: 0.8;
   }
-  /* .card:hover .card_content {
-    background: white;
-    color: var(--dark-color);
-    transform: translateY(0px);
-  }
-  
-  .card_content {
-    padding: 2rem;
-    position: relative;
-    top: -6.5rem;
-    margin-bottom: -6.5rem;
-    transition: 0.5s ease-in-out;
-    transform: translateY(100px);
-  } */
   .card_content{
     background-color: #EC7497;
   }
