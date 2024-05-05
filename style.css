@@ -15,35 +15,35 @@ html {
   font-weight: 300;
   line-height: 1.4;
   scroll-behavior: smooth;
-  color: white;
+  color: #181818;
 }
 body {
   font-size: 1.4rem;
 }
 /* navbar style */
 .navbar-expand-md{
-  background-color:#EC7497;
-  color: white;
+  background-color:#A3B763;
+  color: #181818;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
   opacity: 100%;
-  box-shadow: 0px 6px 15px #515151;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .navi{
-  background-color:#EC7497;
-  box-shadow: 0px 6px 15px #515151;
+  background-color:#C8CA27;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .navbar-toggler-icon{
   font-size: 15px;
   font-weight: 800;
-  color: #fff;
-  border: 2px white solid;
+  color: #181818;
+  border: 5px #181818 solid;
   opacity: 100%;
 }
  .navbar-toggle{
   /* border: 2px white solid; */
-  color: #fff;
+  color: #181818;
   opacity: 100%;
   margin-left: auto;
 }
@@ -55,15 +55,15 @@ body {
 
 .nav-link:hover{
     text-decoration: underline 2px #fff;
-    color: #fff;
+    color: #C8CA27;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
-  color: #fff;
+  color: #181818;
   font-size: 12px;
   font-weight: 600;
   text-transform:capitalize;
-  background-color:#EC7497;
+  background-color:#C8CA27;
   box-shadow: 0px 10px 16px #515151 ;
 }
 .dropdown .dropdown-item{
@@ -72,8 +72,8 @@ body {
   font-weight: 500;
 }
 .dropdown-menu .dropdown-item:hover{
-  text-decoration: underline 1px #EC7497;
-  color: #EC7497;
+  text-decoration: underline 1px #C8CA27;
+  color: #C8CA27;
   font-size: 15px;
 }
 /* navbar finish */
@@ -102,7 +102,7 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: #EC7497;
+    border-color: #C8CA27;
   }
 }
 /* .box{
@@ -127,13 +127,13 @@ body {
 } */
 
   #img{
-    border: #EC7497 3px solid;
+    border: #181818 5px solid;
   }
   .unique{
-    color: #EC7497;
+    color: #C8CA27;
   }
   .one{
-    border: #EC7497 5px solid;
+    border: #fff 5px solid;
   }
   .card {
     flex-direction: column;
@@ -152,7 +152,7 @@ body {
     opacity: 0.8;
   }
   .card_content{
-    background-color: #EC7497;
+    background-color: #C8CA27;
   }
   .card_content h5 {
     text-align: center;
@@ -167,11 +167,11 @@ body {
     font-weight: 400;
   }
   .whatsapp{
-    color: #EC7497;
+    color: #C8CA27;
   }
   .form{
     box-shadow: 0px 6px 15px #515151;
-    border: #EC7497 3px solid;
+    border: #C8CA27 3px solid;
     border-radius: 2%;
   }
   textarea{
@@ -179,17 +179,17 @@ body {
     width: 100%;
   }
   .send{
-    background-color: #EC7497;
+    background-color: #C8CA27;
     border: 3px #fff solid;
     color: #fff;
   }
   .btn:hover{
-    border: 3px #EC7497 solid;
-    color: #EC7497;
-    background-color: #fff;
+    border: 3px #C8CA27 solid;
+    color: #C8CA27;
+    background-color: #181818;
   }
   .footer{
-    background-color: #EC7497;
+    background-color: #C8CA27;
     height: 30px;
   }
   
