@@ -183,9 +183,9 @@ body {
     color: #fff;
   }
   .btn:hover{
-    border: 3px #C8CA27 solid;
-    color: #C8CA27;
-    background-color: #181818;
+    border: 3px #fff solid;
+    color: #fff;
+    background-color: #13005A;
   }
   .footer{
     background-color: #13005A;
