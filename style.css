@@ -22,7 +22,7 @@ body {
 }
 /* navbar style */
 .navbar-expand-md{
-  background-color:#A3B763;
+  background-color:#13005A;
   color: #181818;
   text-transform: uppercase;
   font-size: 13px;
@@ -31,7 +31,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .navi{
-  background-color:#C8CA27;
+  background-color:#13005A;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .navbar-toggler-icon{
@@ -55,7 +55,7 @@ body {
 
 .nav-link:hover{
     text-decoration: underline 2px #fff;
-    color: #C8CA27;
+    color: #1A2F4B;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -63,7 +63,7 @@ body {
   font-size: 12px;
   font-weight: 600;
   text-transform:capitalize;
-  background-color:#C8CA27;
+  background-color:#13005A;
   box-shadow: 0px 10px 16px #515151 ;
 }
 .dropdown .dropdown-item{
@@ -72,8 +72,8 @@ body {
   font-weight: 500;
 }
 .dropdown-menu .dropdown-item:hover{
-  text-decoration: underline 1px #C8CA27;
-  color: #C8CA27;
+  text-decoration: underline 1px #13005A;
+  color: #13005A;
   font-size: 15px;
 }
 /* navbar finish */
@@ -102,7 +102,7 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: #C8CA27;
+    border-color: #13005A;
   }
 }
 /* .box{
@@ -130,7 +130,7 @@ body {
     border: #181818 5px solid;
   }
   .unique{
-    color: #C8CA27;
+    color: #1A2F4B;
   }
   .one{
     border: #fff 5px solid;
@@ -152,7 +152,7 @@ body {
     opacity: 0.8;
   }
   .card_content{
-    background-color: #C8CA27;
+    background-color: #13005A;
   }
   .card_content h5 {
     text-align: center;
@@ -167,11 +167,11 @@ body {
     font-weight: 400;
   }
   .whatsapp{
-    color: #C8CA27;
+    color: #13005A;
   }
   .form{
     box-shadow: 0px 6px 15px #515151;
-    border: #C8CA27 3px solid;
+    border: #13005A 3px solid;
     border-radius: 2%;
   }
   textarea{
@@ -179,7 +179,7 @@ body {
     width: 100%;
   }
   .send{
-    background-color: #C8CA27;
+    background-color: #13005A;
     border: 3px #fff solid;
     color: #fff;
   }
@@ -189,7 +189,7 @@ body {
     background-color: #181818;
   }
   .footer{
-    background-color: #C8CA27;
+    background-color: #13005A;
     height: 30px;
   }
   
