@@ -37,13 +37,13 @@ body {
 .navbar-toggler-icon{
   font-size: 15px;
   font-weight: 800;
-  color: #181818;
-  border: 5px #181818 solid;
+  color: #ffffff;
+  border: 5px #ffffff solid;
   opacity: 100%;
 }
  .navbar-toggle{
   /* border: 2px white solid; */
-  color: #181818;
+  color: #ffffff;
   opacity: 100%;
   margin-left: auto;
 }
